@@ -1,0 +1,34 @@
+<html lang="zh-TW">
+2. <head>
+3. <meta charset="utf-8">
+4. <meta name="viewport" content="width=device-width, initial-scale=1.0">
+5.
+6. <title>BreakIt: A Breakout Game</title>
+1
+7.
+8. <link rel="stylesheet" href="assets/css/styles.css">
+9. <script src="js/breakit.js"></script>
+10. </head>
+11. <body>
+12. <div class="site-container">
+13. <header class="site-banner">
+14. <h1 class="site-title">BreakIt:</h1>
+15. <h3 class="site-subtitle">⼀個 html5/css3/node.js 的練習專案</h3>
+16. </header>
+17. <article class="site-body">
+18. <header class="site-status">
+19. <span>
+20. x:<span id="cursor-x">0</span>
+21. y:<span id="cursor-y">0</span>
+22. </span>
+23. </header>
+24. </article>
+25. <footer class="site-footer">
+26. <small class="float-right">
+27. &copy; Copyright 2017，佛光⼤學資訊應⽤學系
+28. </small>
+29. </footer>
+30. </div>
+31. </body>
+32. </html>
+其中，第 8 ⾏載⼊ styles.css，⽽ index.js 則在
